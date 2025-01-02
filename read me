@@ -1,0 +1,8 @@
+Explanation:
+
+Define text samples and corresponding labels (0 or 1 for sentiment).
+Tokenize the text into numerical representations.
+Build a TensorFlow model with an embedding layer and dense layers.
+Compile the model using adam optimizer and binary cross-entropy loss.
+Train the model on the tokenized text data.
+Predict the mood of a new sentence.
